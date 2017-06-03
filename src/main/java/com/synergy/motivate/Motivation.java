@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by rico on 5/22/2017.
+ * add JPA to controller
  */
 
 @RestController
