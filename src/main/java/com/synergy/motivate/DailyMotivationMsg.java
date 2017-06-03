@@ -10,12 +10,13 @@ import java.text.SimpleDateFormat;
 @Entity
 public class DailyMotivationMsg {
 
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     private String msg;
     private String tag;
+
 
 
 

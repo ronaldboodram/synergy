@@ -10,4 +10,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 public interface MotivationRepositoryRepository extends CrudRepository<DailyMotivationMsg, Long> {
 
 
+
 }
